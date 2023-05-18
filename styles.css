@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.categories ul li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.categories ul li.active {
+  font-weight: bold;
+}
+
+.book {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.book img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.book-info {
+  flex-grow: 1;
+}
+
+.book-title {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.not-for-sale {
+  font-style: italic;
+  color: #999;
+}
+
+.book-description {
+  margin: 5px 0;
+}
+
+.buy-button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-button.added {
+  background-color: #dc3545;
+}
+
+#loadMoreBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#cart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-right: 5px;
+}
